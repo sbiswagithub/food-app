@@ -2,7 +2,8 @@
 :root {
 
 
-  --gold-crayola: hsl(106, 88%, 48%);
+  /* --gold-crayola: hsl(106, 88%, 48%); */
+  --gold-crayola: #ff6600;
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
@@ -451,6 +452,7 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 20px;
   outline: none;
   transition: border-color var(--transition-2);
+  border-radius: 15px;
 }
 
 .input-field::placeholder { color: inherit; }
@@ -1354,7 +1356,9 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+/* .footer-link:is(:hover, :focus-visible) { 
+  color: var(--gold-crayola); 
+} */
 
 .copyright {
   color: var(--quick-silver);
@@ -1367,8 +1371,29 @@ textarea.input-field {
   text-decoration: underline;
 }
 
-
-
+.fa:hover {
+  color:none;
+}
+.fa-facebook{
+  background-color:#3b5998;
+  color: #fff;
+}
+.fa-instagram{
+  background-color:rgb(255, 39, 39);
+  color: #fff;
+}
+.fa-twitter{
+  background-color:#00acee;
+  color: #fff;
+}
+.fa-pinterest{
+  background-color:#cd201f;
+  color: #fff;
+}
+.fa-linkedin{
+  background-color:#0072b1;
+  color: #fff;
+}
 
 
 /*-----------------------------------*\
