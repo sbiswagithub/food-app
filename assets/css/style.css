@@ -309,6 +309,8 @@ body.nav-active { overflow: hidden; }
   padding: 12px 45px;
   overflow: hidden;
   z-index: 1;
+  border-radius: 30px;
+
 }
 
 .btn::before {
@@ -1135,7 +1137,10 @@ body.nav-active { overflow: hidden; }
   #RESERVATION
 \*-----------------------------------*/
 
-.reservation-form { margin-block-start: -270px; }
+.reservation-form {
+   margin-block-start: -270px;
+   border-radius: 20px;
+   }
 
 .form-text { margin-block-end: 40px; }
 
