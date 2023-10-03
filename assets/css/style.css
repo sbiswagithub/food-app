@@ -1361,7 +1361,8 @@ textarea.input-field {
 } */
 
 .copyright {
-  color: var(--quick-silver);
+  /* color: var(--quick-silver); */
+  color: #fff;
   line-height: var(--lineHeight-3);
 }
 
@@ -1373,26 +1374,56 @@ textarea.input-field {
 
 .fa:hover {
   color:none;
+    border-radius: 51%;
+    /* min-width: 26px;
+    min-height: 20px; */
+    /* height: 3px; */
+
 }
+/* .footer-list .label-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 .fa-facebook{
   background-color:#3b5998;
   color: #fff;
+  min-width: 26px;
+  min-height: 22px;
+  border-radius: 50%;
+  padding-top: 3px;
 }
 .fa-instagram{
   background-color:rgb(255, 39, 39);
   color: #fff;
+  min-width: 26px;
+  min-height: 22px;
+  border-radius: 50%;
+  padding-top: 3px;
 }
 .fa-twitter{
   background-color:#00acee;
   color: #fff;
+  min-width: 26px;
+  min-height: 22px;
+  border-radius: 50%;
+  padding-top: 3px;
 }
 .fa-pinterest{
   background-color:#cd201f;
   color: #fff;
+  min-width: 26px;
+  min-height: 22px;
+  border-radius: 50%;
+  padding-top: 3px;
 }
 .fa-linkedin{
   background-color:#0072b1;
   color: #fff;
+  min-width: 26px;
+  min-height: 22px;
+  border-radius: 50%;
+  padding-top: 3px;
 }
 
 
